@@ -66,3 +66,5 @@ git clone
 - .env
 
 ---
+
+## Paldies
