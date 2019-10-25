@@ -5,7 +5,7 @@
 # Theme-Override Setting
 # Doc: https://gitpitch.com/docs/settings/custom-theme
 #
-theme-override: assets/css/PITCHME.css
+theme-override: PITCHME.css
 
 #
 # Logo Setting
