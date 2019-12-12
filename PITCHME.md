@@ -4,7 +4,7 @@
 +++
 #### Īsā versija I - GIT repozitorija klonēšana
 @ul
-- [Atveram sākotnējo repozitoriju]()
+- Atver sākotnējo repozitoriju.
 - Nospiež "Fork" labajā augšējā stūrī.
 - Nospiež "Refresh", ja nepieciešams.
 - Klonē repozitoriju uz sava datora - Clone or download.
