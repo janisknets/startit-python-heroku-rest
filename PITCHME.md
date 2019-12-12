@@ -66,7 +66,7 @@ python --version
 @snap[north]
 #### PIP lejuplāde un instalēšana
 @snapend
-- Lai šis darbojās mums ir jābūt darbīgam python 
+- Lai šis darbotos, ir jābūt strādājošam python
 - [Lejuplādējam get-pip.py](https://bootstrap.pypa.io/get-pip.py)
 - Atveram powershell
 - Pārvietojamies uz lejuplāžu mapi
@@ -77,7 +77,7 @@ cd C:\\Users\\Janis\\Downloads
 ```bash
 python get-pip.py
 ```
-- Pārbaudām ka viss OK
+- Pārbaudām, vai viss OK
 ```bash
 pip -V
 ```
@@ -87,14 +87,14 @@ pip -V
 #### Lejuplādējam Heroku CLI
 @snapend
 - [Detalizēta pamacība no Heroku](https://devcenter.heroku.com/articles/heroku-cli)
-- Pārbaudām ka ieinstalēts
+- Pārbaudām, vai ir uzinstalēts
 ```bash
 heroku --version
 ```
 
 ---
 @snap[north]
-### Nepieciešamās bibleotēkas
+### Nepieciešamās bibliotēkas
 @snapend
 ```bash
 pip install flask
@@ -125,17 +125,17 @@ git clone
 @snap[north]
 #### Heroku komandas lokāli I
 @snapend
-- Izveidojām jaunu app 
+- Izveidojam jaunu app 
 ```bash
 heroku create [LIETOTNES NOSAUKUMS ŠEIT]
 heroku create mana-lietotne
 ```
-- Pārbaudām 
+- Pārbaudām
 ```bash
 heroku apps
 ```
-- Veicam izmaiņas mūsu pirmnkodā
-- Ieliekam viņas git repozitorijā
+- Veicam izmaiņas mūsu pirmkodā
+- Ieliekam izmaiņas git repozitorijā
 ```bash
 git add . && git commit && git git push origin master
 ```
@@ -143,19 +143,19 @@ git add . && git commit && git git push origin master
 @snap[north]
 #### Heroku komandas lokāli II
 @snapend
-- Palaižam heroku serveri 
+- Aktivizējam heroku serveri 
 ```bash 
 heroku ps:scale web=1 -a mana-lietotne
 ```
-- Paskatāmies vai viss strādā 
+- Pārbaudām, vai viss strādā 
 ```bash
 heroku open -a mana-lietotne
 ```
-- Paskatāmies uz heroku log'iem
+- Apskatām heroku "logus"
 ```bash
 logs -a mana-lietotne --tail
 ```
 
 ---
 
-## Paldies
+## Paldies!
