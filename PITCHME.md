@@ -54,7 +54,7 @@
 @snap[north]
 #### Kā iegūt Python?
 @snapend
-- [Python lejuplāde](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe)
+- [Python lejupielāde](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe)
 - Izpilda instalēšanas soļus.
 - Pārbauda konsolē ar
 ```bash
