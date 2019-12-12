@@ -5,35 +5,35 @@
 #### Īsā versija I - GIT repozitorija klonēšana
 @ul
 - [Atveram sākotnējo repozitoriju]()
-- Nospiežam "Fork" labajā augšējā stūrī
-- Nospiežam "Refresh", ja nepieciešams
-- Klonējam repozitoriju uz sava datora - Clone or download
-- Atveram Github Desktop
-- Nospiežam "File", tad "Clone repository" 
-- Izvēlamies svaigi izveidoto repozitoriju
+- Nospiežam "Fork" labajā augšējā stūrī.
+- Nospiežam "Refresh", ja nepieciešams.
+- Klonējam repozitoriju uz sava datora - Clone or download.
+- Atveram Github Desktop.
+- Nospiežam "File", tad "Clone repository".
+- Izvēlamies svaigi izveidoto repozitoriju.
 @ulend
 +++
 #### Īsā versija II - Heroku izveidojam lietotni
 @ul
 - [Reģistrācija Heroku](https://signup.heroku.com/)
-- Apstiprina konta izveidi no reģistrētā e-pasta
-- [Heroku panelī](https://dashboard.heroku.com/apps) izvēlas "Create new app"
-- Izveido nosaukumu - šis nosaukums būs interneta adreses sastāvdaļa, izvēlieties kaut ko atbilstošu projektam, piemēram, "mans-chats"
-- Izvēlas reģionu - Europe
-- Nospiež "Create App"
+- Apstiprina konta izveidi no reģistrētā e-pasta.
+- [Heroku panelī](https://dashboard.heroku.com/apps) izvēlas "Create new app".
+- Izveido nosaukumu - šis nosaukums būs interneta adreses sastāvdaļa, izvēlieties kaut ko atbilstošu projektam, piemēram, "mans-chats".
+- Izvēlas reģionu - Europe.
+- Nospiež "Create App".
 @ulend
 +++
 #### Īsā versija III - Sasaistām Heroku ar GIT
 @ul 
 - Jaunizveidotās aplikācijas tabā "Deploy" atrod sadaļu "Deployment method" un izvēlas GitHub (Connect to GitHub).
-- Pievieno savu GitHub repozitoriju, pārbauda, ka pareizais repozitorijs rādās sadaļā "App connected to GitHub"
-- Sadaļā "Automatic deploys" pārbauda, ka ir izvēlēts zars "master" un nospiež "Enable Automatic deploys" - tagad pēc katra commit vai merge uz *master* zaru tas tiks automātiski palaists uz Heroku servera (paiet apmēram 30-60 sekundes)
+- Pievieno savu GitHub repozitoriju, pārbauda, ka pareizais repozitorijs rādās sadaļā "App connected to GitHub".
+- Sadaļā "Automatic deploys" pārbauda, ka ir izvēlēts zars "master" un nospiež "Enable Automatic deploys" - tagad pēc katra commit vai merge uz *master* zaru tas tiks automātiski palaists uz Heroku servera (paiet apmēram 30-60 sekundes).
 @ulend
 +++
 #### Īsā versija IV - Darbības pārbaude
 @ul
-- Tabā "Deploy" sadaļā "Manual deploy" nospiežam "Deploy" un pagaidām
-- Ja parādās ziņa "Your app was successfully deployed.", nospiezam pogu "Open App" labajā augšējā stūrī.
+- Tabā "Deploy" sadaļā "Manual deploy" nospiežam "Deploy" un pagaidām.
+- Ja parādās ziņa "Your app was successfully deployed.", nospiežam pogu "Open App" labajā augšējā stūrī.
 - Ja viss strādā - urā!
 - Ja rāda kļūdu, Heroku lapā nospiežam labajā augšējā stūrī uz pogas "More" un izvēlamies "View Logs".
 @ulend
