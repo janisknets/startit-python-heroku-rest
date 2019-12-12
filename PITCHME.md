@@ -13,7 +13,7 @@
 - Izvēlamies svaigi izveidoto repozitoriju
 @ulend
 +++
-#### Īsā versija II - Heroku Izveidojam lietotni
+#### Īsā versija II - Heroku izveidojam lietotni
 @ul
 - [Reģistrācija Heroku](https://signup.heroku.com/)
 - Apstiprina konta izveidi no reģistrētā e-pasta
