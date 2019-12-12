@@ -5,37 +5,37 @@
 #### Īsā versija I - GIT repozitorija klonēšana
 @ul
 - [Atveram sākotnējo repozitoriju]()
-- Nospiežam "Fork" labajā augšējā stūrī.
-- Nospiežam "Refresh", ja nepieciešams.
-- Klonējam repozitoriju uz sava datora - Clone or download.
-- Atveram Github Desktop.
-- Nospiežam "File", tad "Clone repository".
-- Izvēlamies svaigi izveidoto repozitoriju.
+- Nospiež "Fork" labajā augšējā stūrī.
+- Nospiež "Refresh", ja nepieciešams.
+- Klonē repozitoriju uz sava datora - Clone or download.
+- Atver GitHub Desktop.
+- Nospiež "File", tad "Clone repository".
+- Izvēlas tikko izveidoto repozitoriju.
 @ulend
 +++
-#### Īsā versija II - Heroku izveidojam lietotni
+#### Īsā versija II - Heroku lietotnes izveidošana
 @ul
 - [Reģistrācija Heroku](https://signup.heroku.com/)
 - Apstiprina konta izveidi no reģistrētā e-pasta.
 - [Heroku panelī](https://dashboard.heroku.com/apps) izvēlas "Create new app".
-- Izveido nosaukumu - šis nosaukums būs interneta adreses sastāvdaļa, izvēlieties kaut ko atbilstošu projektam, piemēram, "mans-chats".
+- Izveido nosaukumu - šis nosaukums būs interneta adreses sastāvdaļa, tas jāizvēlas atbilstošs projektam, piemēram, "mans-chats".
 - Izvēlas reģionu - Europe.
 - Nospiež "Create App".
 @ulend
 +++
-#### Īsā versija III - Sasaistām Heroku ar GIT
+#### Īsā versija III - Heroku sasaistīšana ar GIT
 @ul 
-- Jaunizveidotās aplikācijas tabā "Deploy" atrod sadaļu "Deployment method" un izvēlas GitHub (Connect to GitHub).
+- Jaunizveidotās lietotnes tabā "Deploy" atrod sadaļu "Deployment method" un izvēlas GitHub (Connect to GitHub).
 - Pievieno savu GitHub repozitoriju, pārbauda, ka pareizais repozitorijs rādās sadaļā "App connected to GitHub".
-- Sadaļā "Automatic deploys" pārbauda, ka ir izvēlēts zars "master" un nospiež "Enable Automatic deploys" - tagad pēc katra commit vai merge uz *master* zaru tas tiks automātiski palaists uz Heroku servera (paiet apmēram 30-60 sekundes).
+- Sadaļā "Automatic deploys" pārbauda, ka ir izvēlēts zars "master" un nospiež "Enable Automatic deploys" - tagad pēc katra commit vai merge uz *master* zaru tas tiks automātiski palaists uz Heroku servera (pēc apmēram 30-60 sekundēm).
 @ulend
 +++
 #### Īsā versija IV - Darbības pārbaude
 @ul
-- Tabā "Deploy" sadaļā "Manual deploy" nospiežam "Deploy" un pagaidām.
-- Ja parādās ziņa "Your app was successfully deployed.", nospiežam pogu "Open App" labajā augšējā stūrī.
+- Tabā "Deploy" sadaļā "Manual deploy" nospiež "Deploy" un pagaida.
+- Ja parādās ziņa "Your app was successfully deployed.", nospiež pogu "Open App" labajā augšējā stūrī.
 - Ja viss strādā - urā!
-- Ja rāda kļūdu, Heroku lapā nospiežam labajā augšējā stūrī uz pogas "More" un izvēlamies "View Logs".
+- Ja rāda kļūdu, Heroku lapā labajā augšējā stūrī nozpiež uz pogas "More" un izvēlas "View Logs".
 @ulend
 
 ---
@@ -52,11 +52,11 @@
 
 ---
 @snap[north]
-#### Kā iegūt Python
+#### Kā iegūt Python?
 @snapend
 - [Python lejuplāde](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe)
-- Izpildām instalēšanas soļus
-- Pārbaudām konsolē ar
+- Izpilda instalēšanas soļus.
+- Pārbauda konsolē ar
 ```bash
 python --version
 ```
@@ -64,30 +64,30 @@ python --version
 
 ---
 @snap[north]
-#### PIP lejuplāde un instalēšana
+#### PIP lejupielāde un instalēšana
 @snapend
-- Lai šis darbotos, ir jābūt strādājošam python
-- [Lejuplādējam get-pip.py](https://bootstrap.pypa.io/get-pip.py)
-- Atveram powershell
-- Pārvietojamies uz lejuplāžu mapi
+- Lai šis darbotos, ir jābūt strādājošam python.
+- [Lejupielādē get-pip.py](https://bootstrap.pypa.io/get-pip.py)
+- Atver powershell.
+- Pārvietojas uz lejupielāžu mapi
 ```bash
 cd C:\\Users\\Janis\\Downloads
 ```
-- Izpildām 
+- Izpilda
 ```bash
 python get-pip.py
 ```
-- Pārbaudām, vai viss OK
+- Pārbauda, vai viss OK
 ```bash
 pip -V
 ```
 - [Pamācība angļu valodā](https://www.liquidweb.com/kb/install-pip-windows/)
 ---
 @snap[north]
-#### Lejuplādējam Heroku CLI
+#### Lejupielādē Heroku CLI
 @snapend
 - [Detalizēta pamacība no Heroku](https://devcenter.heroku.com/articles/heroku-cli)
-- Pārbaudām, vai ir uzinstalēts
+- Pārbauda, vai ir uzinstalēts
 ```bash
 heroku --version
 ```
@@ -104,7 +104,7 @@ pip install gunicorn
 
 ---
 @snap[north]
-### Izveidojam Heroku lietotni
+### Izveido Heroku lietotni
 @snapend
 ```bash
 heroku create
@@ -125,17 +125,17 @@ git clone
 @snap[north]
 #### Heroku komandas lokāli I
 @snapend
-- Izveidojam jaunu app 
+- Izveido jaunu app 
 ```bash
 heroku create [LIETOTNES NOSAUKUMS ŠEIT]
 heroku create mana-lietotne
 ```
-- Pārbaudām
+- Pārbauda
 ```bash
 heroku apps
 ```
-- Veicam izmaiņas mūsu pirmkodā
-- Ieliekam izmaiņas git repozitorijā
+- Veic izmaiņas pirmkodā.
+- Ieliek izmaiņas GIT repozitorijā
 ```bash
 git add . && git commit && git git push origin master
 ```
@@ -143,15 +143,15 @@ git add . && git commit && git git push origin master
 @snap[north]
 #### Heroku komandas lokāli II
 @snapend
-- Aktivizējam heroku serveri 
+- Aktivizē Heroku serveri 
 ```bash 
 heroku ps:scale web=1 -a mana-lietotne
 ```
-- Pārbaudām, vai viss strādā 
+- Pārbauda, vai viss strādā 
 ```bash
 heroku open -a mana-lietotne
 ```
-- Apskatām heroku "logus"
+- Apskata heroku "logus"
 ```bash
 logs -a mana-lietotne --tail
 ```
