@@ -18,16 +18,16 @@
 - [Reģistrācija Heroku](https://signup.heroku.com/)
 - Apstiprina konta izveidi no reģistrētā e-pasta
 - [Heroku panelī](https://dashboard.heroku.com/apps) izvēlas "Create new app"
-- Izveido nosaukumu - šis nosaukums būs interneta adreses sastāvdaļa, izvēlieties kaut ko atbilstošu projektam, piemēram "mans-chats"
+- Izveido nosaukumu - šis nosaukums būs interneta adreses sastāvdaļa, izvēlieties kaut ko atbilstošu projektam, piemēram, "mans-chats"
 - Izvēlas reģionu - Europe
-- Nospiez "Create App"
+- Nospiež "Create App"
 @ulend
 +++
 #### Īsā versija III - Sasaistām Heroku ar GIT
 @ul 
 - Jaunizveidotās aplikācijas tabā "Deploy" atrod sadaļu "Deployment method" un izvēlas GitHub (Connect to GitHub).
 - Pievieno savu GitHub repozitoriju, pārbauda, ka pareizais repozitorijs rādās sadaļā "App connected to GitHub"
-- Sadaļā "Automatic deploys" pārbauda, ka ir izvēlēts zars "master" un nospiez "Enable Automatic deploys" - tagad pēc katra commit vai merge uz *master* zaru tiks automātiski palaists uz Heroku servera (paiet apmēram 30-60 sekundes)
+- Sadaļā "Automatic deploys" pārbauda, ka ir izvēlēts zars "master" un nospiež "Enable Automatic deploys" - tagad pēc katra commit vai merge uz *master* zaru tas tiks automātiski palaists uz Heroku servera (paiet apmēram 30-60 sekundes)
 @ulend
 +++
 #### Īsā versija IV - Darbības pārbaude
